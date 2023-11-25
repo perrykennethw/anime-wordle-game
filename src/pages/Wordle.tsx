@@ -58,7 +58,7 @@ export default function Wordle() {
   if (solution == null) return null; 
   
   return (
-    <div className="board">
+    <div className="flex flex-col gap-2.5 p-2.5">
       {
         guesses.map((guess: string, i: number) => {
           return (

@@ -6,7 +6,7 @@ interface GuessRowProps {
 
 function GuessRow({ guess, solution, isFinal }: GuessRowProps) {
     return (
-        <div className="line">
+        <div className="flex m-auto gap-2.5">
             {guess.split('').map((char: string, i: number) => {
                 let className = 'tile';
 

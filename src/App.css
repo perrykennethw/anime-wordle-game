@@ -2,19 +2,6 @@ body {
   background-color: white;
 }
 
-.board {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 10px;
-}
-
-.line {
-  display: flex;
-  margin: auto;
-  gap: 10px;
-}
-
 .tile {
   width: 40px;
   height: 40px;
