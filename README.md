@@ -4,6 +4,13 @@
 
 ## Expanding the ESLint configuration
 
+## TODOs
+- Update CSS to use `TailwindCSS`
+- Update CSS to look more like wordle
+- Add more words
+- Database?
+  - Need to determine what word is chosen per day and make sure it isn't chosen another day
+
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
